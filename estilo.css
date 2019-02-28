@@ -1,0 +1,67 @@
+header{
+    text-align: center;
+    color: aliceblue;
+    background: black;
+    position: relative; 
+    padding: 20px;/*la propiedad de padiding se utiliza para generar un espacio alrededor de la etiqueta  */
+    margin: 50px;/*propiedad que establece un margen o un barde no definido por los cuato lados de un elemento y que hace que no se junte con el documento*/
+   /* margin: 5em;*/
+   /*margin:5ex;*/
+    /*unidades de medida
+        PX- es una unidad que divide un elemnto en pixeles y es dependinte de cada dispositivo*/
+}
+
+#relativo{
+    position: relative;
+    background: rgb(0, 0, 0);
+    font-size: 1em;/*EM. la unidad depende del tipo de fuente que se este usando*/
+    color:white;
+}
+#absoluta {
+    position: absolute;
+    color: #f5deb3;
+    font-size: 2ex;/*EX- Tiene relacion con el tipo de fuente, pero mas relacionado con la altura de la fuente*/
+    font-family: arial;
+    background: #000000;
+
+}
+
+#prueba p{
+    color:hsl(0, 20%, 95%);
+    position: relative;
+    font-size: -1in;/*son medidas en pulgadas*/
+    font-family: arial;
+    background: #000000;
+    margin-top: 3cm;/*medidas dadas en centimentros*/
+    /*se define el margen que se tendra en la parte superior*/
+
+}
+
+#prueba2 p{
+    color:hsl(0, 19%, 95%);
+    position: relative;
+    font-size: 20mm;/*medidas en milimetros*/
+    font-family: arial;
+    background: #000000;
+    margin-top: 2%;/*medidad en porcentaje*/
+
+}
+#rem{
+    color:hsla(0, 19%, 95%, 0.24);
+    position: relative;
+    font-size: 2rem;
+    font-family: arial;
+    background: #000000;
+    margin-top: 2rem;
+}
+
+a#c-p{
+    border: 1px solid black;/*al agregar la propiedad border al texto se le de un formato con borde*/
+    padding: 1pc;/*la sexta parte de una pulgada*/
+}
+
+section a#s-b{
+border: 1px solid black;
+margin-left: 505pt;/*la doceava parte de una pica, es decir, la 72ava parte de una pulgada*/
+}
+
