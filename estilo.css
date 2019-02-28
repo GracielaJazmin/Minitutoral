@@ -27,7 +27,7 @@ header{
 }
 
 #prueba p{
-    color:hsl(0, 20%, 95%);
+    color:rgba(250, 246, 246, 0.63);/*color en hexadecimal pero con opacidad*/
     position: relative;
     font-size: -1in;/*son medidas en pulgadas*/
     font-family: arial;
