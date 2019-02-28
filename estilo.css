@@ -47,7 +47,7 @@ header{
 
 }
 #rem{
-    color:hsla(0, 19%, 95%, 0.24);/*defien la opacidad del color*/
+    color:hsla(0, 19%, 95%, 0.24);/* en la cuarta prpiedad se define la opacidad del color*/
     position: relative;
     font-size: 2rem;
     font-family: arial;
