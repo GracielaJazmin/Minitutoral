@@ -47,7 +47,7 @@ header{
 
 }
 #rem{
-    color:hsla(0, 19%, 95%, 0.24);
+    color:hsla(0, 19%, 95%, 0.24);/*defien la opacidad del color*/
     position: relative;
     font-size: 2rem;
     font-family: arial;
